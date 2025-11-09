@@ -9,6 +9,8 @@ What is included
 - `tests/test_simulator.py` — minimal tests
 - `requirements.txt` — runtime dependencies
 
+- `src/gui.py` — simple Tkinter GUI to interactively explore single/double wells
+
 Quick start
 
 1. Create a virtual environment and install dependencies:
@@ -23,6 +25,12 @@ pip install -r requirements.txt
 
 ```bash
 python src/plot_demo.py --output demo_output.png
+```
+
+3. Run the GUI (interactive; requires a display):
+
+```bash
+python src/gui.py
 ```
 
 License: MIT
